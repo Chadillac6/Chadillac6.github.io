@@ -1,0 +1,74 @@
+/* Global
+================================================================ */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	 
+}
+
+
+.backgroundImage {
+  text-align: center;
+  background-image: url(http://res.cloudinary.com/nylon/image/upload/t_featured_images-original,w_600,dpr_1.0,f_auto,fl_lossy,q_80/featured_images/attachments/000/012/829/tumblr_n9n4ctEgJD1rfduvxo1_500.gif);
+  background-position: top; // or center //
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+
+
+}
+
+/*.logo {
+	background-image: url(../img/logo.png);
+	width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+}*/
+
+.verticalAlign {
+display: block;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  width: 600px;
+}
+
+.middleAlign {
+
+float: left;
+  margin: auto;
+  position: relative;
+  
+  width: 600px;
+}
+
+
+header {
+	
+	
+}
+
+header h1 {
+	float: left;
+}
+
+section div {
+	float: left;
+	width: 100%;
+}
+section p,img {
+	float: left;
+	width: 40%;
+	padding: 50px;
+}
