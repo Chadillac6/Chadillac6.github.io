@@ -96,8 +96,19 @@
   display: none;
   width: 100%;
   z-index: 1;
-  opacity: 0.9;
+  opacity: .97;
 }
+
+#learnMore {
+  transform: translateY(0px);
+}
+
+.badEmail {
+  border: 2px solid #F07057 !important;
+  background-color: #F07057 !important;
+}
+
+
 
 header img {
 /*  float: left;*/
@@ -110,7 +121,7 @@ header img {
 
 }
 
-header{
+body{
   font-family: 'Roboto', sans-serif;
 
 }
@@ -156,7 +167,7 @@ header a {
   margin: auto;
   float: left;
   width: 100%;
-
+  
 
 }
 
@@ -165,6 +176,10 @@ header a {
 
 /*Section Info */
 
+/*section {
+  transition: all 0.5s ease-in-out;
+}
+*/
 section div {
   float: left;
   display: block;
@@ -174,6 +189,9 @@ section div {
 }
 
 section p {
+font-size: 2rem;
+font-weight: lighter;
+margin-top: 50px;
 
 }
 /*section p, h1 {
@@ -196,6 +214,11 @@ aside h2 {
 
 aside i, h2 {
   text-align: center;
+
+}
+
+aside i {
+    display: none;
 }
 
 
@@ -207,4 +230,11 @@ aside i, h2 {
   clear: both;
 
 }*/
+.phone {
+
+    width: 75%;
+    height: 75%;
+
+}
+
 
